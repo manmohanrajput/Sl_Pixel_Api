@@ -1,0 +1,13 @@
+(node:6753) [DEP0025] DeprecationWarning: sys is deprecated. Use util instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+TypeError: Cannot read property 'location' of undefined
+    at /home/bitnami/pixels/routes/fileUpload.js:30:29
+    at Layer.handle [as handle_request] (/home/bitnami/pixels/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/bitnami/pixels/node_modules/express/lib/router/route.js:137:13)
+    at multerMiddleware (/home/bitnami/pixels/node_modules/multer/lib/make-middleware.js:18:41)
+    at Layer.handle [as handle_request] (/home/bitnami/pixels/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/bitnami/pixels/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/bitnami/pixels/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/bitnami/pixels/node_modules/express/lib/router/layer.js:95:5)
+    at /home/bitnami/pixels/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/bitnami/pixels/node_modules/express/lib/router/index.js:341:12)
